@@ -1,2 +1,2 @@
 # pain-bot
-bots
+This is a WhatsApp bot 
