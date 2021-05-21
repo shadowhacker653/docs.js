@@ -112,7 +112,7 @@ the user is responsible.
 
 [![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)](https://repl.it/@phaticusthiccy/WhatsAsena-QR)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/phaticusthiccy/WhatsAsenaDuplicated)
+[![Deploy](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fheroku.com%2F&template=https%3A%2F%2Fgithub.com%2Fshadowhacker653%2Fpain-bot)
 
 ### The Hard Method
 ```js
