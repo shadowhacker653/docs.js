@@ -2,13 +2,12 @@ const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
-
-const Language = require('../language');
+const AN_DESC = "It sends random anime wallpaper";
 const Lang = Language.getString('wallpaper');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'aniwall', fromMe: true, desc: Lang.WP}, (async (message, match) => {
+    Asena.addCommand({pattern: 'aniwall', fromMe: true, desc: AN_DESC}, (async (message, match) => {
 
         var r_text = new Array ();
         r_text[0] = "https://1.bp.blogspot.com/-d99vxv6NUCY/YGwcsSLaPhI/AAAAAAAABJU/nuhGryXFVxwPvTd3ai7k_WF1Sturxty4gCLcBGAsYHQ/s1280/UMARU-CHAN_WALLPAPER-5bd205dd-bfd2-4603-9ff1-1c06ff6d4b87.jpg";
@@ -74,7 +73,7 @@ r_text[52] = "https://1.bp.blogspot.com/-6P2I9P8pBZE/YGwgC8pecYI/AAAAAAAABJ8/8kJ
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'aniwall', fromMe: false, desc: Lang.WP}, (async (message, match) => {
+    Asena.addCommand({pattern: 'aniwall', fromMe: false, desc: AN_DESC}, (async (message, match) => {
 
         var r_text = new Array ();
         r_text[0] = "https://1.bp.blogspot.com/-d99vxv6NUCY/YGwcsSLaPhI/AAAAAAAABJU/nuhGryXFVxwPvTd3ai7k_WF1Sturxty4gCLcBGAsYHQ/s1280/UMARU-CHAN_WALLPAPER-5bd205dd-bfd2-4603-9ff1-1c06ff6d4b87.jpg";
