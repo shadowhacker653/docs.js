@@ -1,7 +1,7 @@
 {
-  "name": "WhatsAsenaDuplicated",
+  "name": "Charmybot",
   "version": "1.2.3",
-  "description": "WhatsAsena project - a Whatsapp userbot helping to improve your Whatsapp experience.",
+  "description": "Charmybot- A Whatsapp bot.",
   "main": "./WhatsAsenaDuplicated/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
