@@ -91,7 +91,7 @@ if (config.WORKTYPE == 'private') {
 
     if (config.LANG == 'TR' || config.LANG == 'AZ') {
 
-        Asena.addCommand({pattern: 'tts (.*)', fromMe: true, desc: Lang.TTS_DESC}, (async (message, match) => {
+        Asena.addCommand({pattern: 'say (.*)', fromMe: true, desc: Lang.TTS_DESC}, (async (message, match) => {
 
             if(match[1] === undefined || match[1] == "")
                 return;
@@ -118,7 +118,7 @@ if (config.WORKTYPE == 'private') {
         }));
     }
     else {
-        Asena.addCommand({pattern: 'tts (.*)', fromMe: true, desc: Lang.TTS_DESC}, (async (message, match) => {
+        Asena.addCommand({pattern: 'say (.*)', fromMe: true, desc: Lang.TTS_DESC}, (async (message, match) => {
 
             if(match[1] === undefined || match[1] == "")
                 return;
@@ -555,7 +555,7 @@ else if (config.WORKTYPE == 'public') {
         }
     }));
 
-    Asena.addCommand({pattern: 'tts (.*)', fromMe: false, desc: Lang.TTS_DESC}, (async (message, match) => {
+    Asena.addCommand({pattern: 'say (.*)', fromMe: false, desc: Lang.TTS_DESC}, (async (message, match) => {
 
         if(match[1] === undefined || match[1] == "")
             return;
